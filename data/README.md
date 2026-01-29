@@ -22,7 +22,7 @@ ___labels/___
 
 ### Access
 - The dataset was processed and versioned using Roboflow.
-- Only a small sample is included under `data/` for demonstration.
+- Only a small sample is included under `data/` to illustrate the dataset format.
 - Dataset available upon request.
                 
 
