@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Mangrove_Trunk']
+
+roboflow:
+  workspace: mangrove-xg0rl
+  project: mangrove-detection-d0ram
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mangrove-xg0rl/mangrove-detection-d0ram/dataset/6
