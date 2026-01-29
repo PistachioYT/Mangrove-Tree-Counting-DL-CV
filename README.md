@@ -1,5 +1,9 @@
 # Mangrove-Tree-Counting-DL-CV
 
+### Tech/Tools Used
+-__Deep Learning/ Computer Vision:__ YOLOv8 for object detection, custom HSV filter for domain-specific post processing
+__Python Libraries:__ NumPy, Matplotlib
+
 ## 1. Problem 
 Mangroves are disappearing rapidly, accurately estimating the population density of mangroves is a major challenge. Existing research for tree counting are mainly designed for commercial species like oil palm and olive trees.
 
