@@ -1,9 +1,9 @@
 # Mangrove-Tree-Counting-DL-CV
 
 ### Tech/Tools Used
--__Deep Learning/ Computer Vision:__ YOLOv8 for object detection, custom HSV filter for domain-specific post processing
+- __Deep Learning/ Computer Vision:__ YOLOv8 for object detection, custom HSV filter for domain-specific post processing
 
--__Python Libraries:__ NumPy, Matplotlib
+- __Python Libraries:__ NumPy, Matplotlib
 
 ## 1. Problem 
 Mangroves are disappearing rapidly, accurately estimating the population density of mangroves is a major challenge. Existing research for tree counting are mainly designed for commercial species like oil palm and olive trees.
@@ -16,6 +16,15 @@ This custom dataset consisting ___610 images___, hereby referred to as TheStrait
 The dataset is accessible upon request.
 
 ## 3. Methodology
+
+- __Baseline:__ YOLOv8
+
+- __Proposed:__ Hybrid Trunk Detection (HTD)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -YOLOv8 detection
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -HSV post-processing filter
+
 Deep learning model, specifically YOLO, were utilised as the baseline object detection module. Several versions of YOLO (YOLOv5,YOLOv8, and YOLOv11) in small(s) variant were chosen for this project. 
 
 Upon experiments, __YOLOv8__ performs well and achieved better result than YOLOv11 despite the latter being a newer and more advanced version. This was attributed to the limited size of dataset which significantly influences the training dynamic of deep learning models. 
