@@ -4,15 +4,21 @@ Due to dataset size and account-based control on Roboflow, the full dataset is n
 
 ### Dataset Structure (YOLO format)
 
-images/
-├── train/
-├── val/
-└── test/
+___images/___
 
-labels/
-├── train/
-├── val/
-└── test/
+../train/
+
+../val/
+
+../test/
+
+___labels/___
+
+../train/
+
+../val/
+
+../test/
 
 ### Access
 - The dataset was processed and versioned using Roboflow.
