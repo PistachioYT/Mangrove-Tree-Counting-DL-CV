@@ -8,7 +8,7 @@ The data collection was conducted manually for a few days, took place along the 
 
 This custom dataset consisting ___610 images___, hereby referred to as TheStraitsMangrove24. The images were then annotated utilising Roboflow, and split into train, validation, and test set in ___7:2:1 ratio___.
 
-The dataset is accessible here: [TheStraitsMangrove24](https://drive.google.com/drive/folders/1-MO_hpmxthjhIZpfaFuaQoce7LfbK1i2?usp=sharing)
+The dataset is accessible upon request.
 
 ## 3. Methodology
 Deep learning model, specifically YOLO, were utilised as the baseline object detection module. Several versions of YOLO (YOLOv5,YOLOv8, and YOLOv11) in small(s) variant were chosen for this project. 
